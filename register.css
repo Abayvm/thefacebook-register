@@ -1,0 +1,159 @@
+body{
+    background: linear-gradient(hsl(0, 0%, 98%), hsl(222, 35%, 83%), hsl(240, 52%, 73%));
+}
+a{
+    text-decoration: none;
+}
+.head{
+    background-color: rgb(81, 81, 219);
+    margin-left: -8px;
+    margin-top: -10px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.head .tell{
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    color: white;
+    padding-top: 15px;
+    padding-right: 35px;
+}
+.tell #email{
+    width: 130px;
+}
+.description{
+    margin-top: -15px;
+    margin-bottom: 25px;
+}
+.linep{
+    padding-left: 3px;
+    color: rgb(227, 227, 227);
+}
+.linee{
+    display: flex;
+    color: rgb(227, 227, 227);
+}
+.tell{
+    height: 25px;
+    color: white;
+    margin-right: 150px;
+}
+.tell #password{
+    width: 130px;
+}
+.tell button{
+    background-color: rgb(111, 111, 216);
+    color: white;
+    margin-top: 20px;
+    margin-left: -19px;
+    height: 20px;
+    width: 70px;
+}
+.tell p{
+    font-size: 14px;
+    margin-top: -1px;
+   margin-left: -5px;
+   padding-right: 10px;
+   flex-wrap: nowrap;
+}
+.head h1{
+    color: white;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 26%;
+}
+img{
+    height: 290px;
+    width: 390px;
+}
+.create{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.create h2{
+    font-size: 30px;
+}
+.name{
+    display: flex;
+    gap: 5px;
+}
+.firstname{
+    width: 185px;
+}
+.surname{
+    width: 186px;
+}
+.other{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bday p{
+    font-size: 13px;
+    float: right;
+    margin-top: -1px;
+}
+.radio label{
+    display: flex;
+}
+.radio{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    gap: 15px;
+}
+.agreement{
+    font-size: 13px;
+    text-align: left;
+    color: rgb(75, 76, 77);
+}
+.agreement a{
+    text-decoration: none;
+}
+.agreement a:hover{
+    text-decoration: underline;
+}
+button{
+    background-color: rgb(40, 185, 40);
+    display: flex;
+    align-items: flex-start;
+    width: 180px;
+    color: white;
+    font-weight: bold;
+    height: 40px;
+    border: 1px solid rgb(12, 46, 12);
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+hr{
+    background-color: black;
+}
+#wright{
+    color: red;
+    font-size: 10px;
+}
+.end{
+    margin-top: 15px;
+    margin-bottom: 23px;
+    color: rgb(104, 112, 120);
+    font-size: 12px;
+    text-align: left;
+}
+.end a{
+    text-decoration: none;
+}
+.end a:hover{
+    text-decoration: underline;
+}
